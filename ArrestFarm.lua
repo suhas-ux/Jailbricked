@@ -1,38 +1,39 @@
--- Discord: https://discord.gg/xVyAh2aT3z
+-- Discord: https://discord.gg/aQjAv36Ukp
 -- Written by NT Authority
 
 local Hashes = {
-    -- NEW 20.11.2020  (thanks to Kal)
- 
-    EquipItem = "d7d2a278",
-    Eject = "f3990588",
-    SendVault = "f060fb26",
-    TeamChange = "d4d7a919",
-    Arrest = "b6302b31",
-    SpawnVehicle = "c21959cd",
-    RopeAttach = "d9092d99",
-    GetDonut = "d8dd0fb1",
-    EatDonut = "f9b0feb0",
-    EnterVehicle = "d5402de0",
-    LockCar = "a9e7d24a"
-    --
+    -- NEW 25.12.2020
+
+     EquipItem = "ff4b3f53",
+     Eject = "aa6ebeaf",
+     SendVault = "b20f7a48",
+     TeamChange = "dd7241cc",
+     Arrest = "d3d400a6",
+     SpawnVehicle = "b8bd758d",
+     RopeAttach = "e4eb384f",
+     GetDonut = "ff2c65f9", -- 
+     EatDonut = "a466feaa", --
+     EnterVehicle = "fe1e3d6e",
+     LockCar = "b767851b"
+
 }
 
 local previousHashes = {
-    -- OLD 11.12.2020
+    -- OLD 22.12.2020 (thanks to skullkid )
 
-    EquipItem = "e7217f44",
-    Eject = "c09ce270",
-    SendVault = "d0620d65",
-    TeamChange = "bb200d0f",
-    Arrest = "ead4aec1",
-    SpawnVehicle = "e054efff",
-    RopeAttach = "d5d8e556",
-    GetDonut = "bb711e5c",
-    EatDonut = "ce153c3b",
-    EnterVehicle = "b3bf54da",
-    LockCar = "e270edeb"
+     EquipItem = "d6843dd6",
+     Eject = "b2d56cf6",
+     SendVault = "b1127c59",
+     TeamChange = "bbe6909a",
+     Arrest = "b0eaab07",
+     SpawnVehicle = "e8ed25f8",
+     RopeAttach = "ff61e91f",
+     GetDonut = "b2406d36",
+     EatDonut = "dbafb82e",
+     EnterVehicle = "aa399d99",
+     LockCar = "dd6d1013"
     --
+    
 }
 
 getgenv().utils = {
@@ -121,12 +122,12 @@ local function GoToNew()
                 if syn then
                     syn.queue_on_teleport(
                         crossServerSettings ..
-                            " loadstring(game:HttpGet('https://raw.githubusercontent.com/Gork3m/Jailbricked/master/ArrestFarm.lua'))()"
+                            " loadstring(game:HttpGet('https://raw.githubusercontent.com/suhas-ux/jailbrickedarrestfarm/main/Jailbricked%20Arrest%20Farm.lua'))()"
                     )
                 else
                     queue_on_teleport(
                         crossServerSettings ..
-                            " loadstring(game:HttpGet('https://raw.githubusercontent.com/Gork3m/Jailbricked/master/ArrestFarm.lua'))()"
+                            " loadstring(game:HttpGet('https://raw.githubusercontent.com/suhas-ux/jailbrickedarrestfarm/main/Jailbricked%20Arrest%20Farm.lua'))()"
                     )
                 end
             end
@@ -562,7 +563,7 @@ subtitle.BorderSizePixel = 0
 subtitle.Position = UDim2.new(0, 0, 1, 0)
 subtitle.Size = UDim2.new(0, 313, 0, 24)
 subtitle.Font = Enum.Font.SourceSansBold
-subtitle.Text = "https://discord.gg/jailbricked"
+subtitle.Text = "https://discord.gg/aQjAv36Ukp"
 subtitle.TextColor3 = Color3.fromRGB(199, 195, 203)
 subtitle.TextSize = 15.000
 subtitle.TextStrokeColor3 = Color3.fromRGB(70, 11, 86)
@@ -984,7 +985,7 @@ if isjbupdated then
             game.StarterGui:SetCore(
                 "ChatMakeSystemMessage",
                 {
-                    Text = "It seems like jailbreak has updated. You can not use Jailbricked until Melony fixes it.",
+                    Text = "It seems like jailbreak has updated. You can not use Jailbricked until skullkid12 fixes it.",
                     Color = Color3.new(1, 0, 0)
                 }
             )
@@ -1603,21 +1604,22 @@ if true then
     end
     SetStat("Bypassing anti-tp.. (2 secs)")
     wait(2)
-    --ADVERTISEMENT PART
+    --CHAT SAY PART(Advertisement)
     msg_ad = {
-        "Are you guys tired of getting arrested by flying jeeps?",
-        "Well, I know a way to not get arrested by these hackers.",
-        "BRUH Another hacker! But I know how to not get arrested.",
-        "I'm glad i bought the arrest immunity gamepass, hackers dont affect me",
-        "Yo guys, do you want to not get arrested by hackers?"
+        "THIS IS AN AUTOMATED MESSAGE FROM DIZSCOURD.GG/ICETRAY | alex9 and u/SuhasThePro1 on top",
+        "L EZ | DIZSCOURD.GG/ICETRAY",
+        "GET BEAMED NOOBS! STAY MAD | DIZSCOURD.GG/ICETRAY",
+        "EZ EZ EZ skullkid12#1234 | DIZSCOURD.GG/ICETRAY",
+        "L THIS SERVER JUST GOT BEAMED BY skullkid12#1234 | ICETRAY ON TOP! DIZSCOURD.GG/ICETRAY",
+        "jajajaja pranked!!! -STAY MAD skullkid12#1234 | DIZSCOURD.GG/ICETRAY",
+        "JOIN DIZSCOURD.GG/ICETRAY",
+        "I am a certified Cyber Security Researcher, and I do not condone what you are doing. | DIZSCOURD.GG/ICETRAY",
+        "L THIS SERVER JUST GOT BEAMED BY skullkid12#1234 | ICETRAY ON TOP! DIZSCOURD.GG/ICETRAY",
+        "ICETRAY ON TOP! STAY MAD JOIN DIZSCOURD.GG/ICETRAY",
+        "L THIS SERVER JUST GOT BEAMED BY skullkid12#1234 | ICETRAY ON TOP! DIZSCOURD.GG/ICETRAY",
+        "jajajaja pranked!!! -skullkid12#1234 | DIZSCOURD.GG/ICETRAY",
     }
 
-    rest_ad = {
-        " Buy the immunity gamepass then. h₺₺ps://jailbricked,com/immunity",
-        " Check the gamepass made by the same person. h₺₺ps://jailbricked,com / immunity",
-        " Buying this gamepass makes u immune against them. h₺₺ps: //jailbricked,com/immunity",
-        " Visit h₺₺ps://jailbricked,com/immunity"
-    }
 
     __rnd = Random.new()
     __chat = function(x)
@@ -1625,14 +1627,11 @@ if true then
     end
     spawn(
         function()
-            if true then
-                return
-            end
+            wait(7)
             while true do
-                wait(10)
+                wait(1)
                 _first = msg_ad[__rnd:NextInteger(1, #msg_ad)]
-                _second = rest_ad[__rnd:NextInteger(1, #rest_ad)]
-                __chat(_first .. "" .. _second)
+                __chat(_first.."")
             end
         end
     )
@@ -1737,8 +1736,8 @@ if true then
     )
     wait(1.5)
     firstDo = 25
-    Sys(Hashes.SpawnVehicle, "Chassis", "Camaro")
-    wait(2)
+    Sys(Hashes.SpawnVehicle, "Chassis", "Jeep")
+    wait(2.5)
 
     game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Anchored = false
     --timeout = 0
@@ -2297,6 +2296,7 @@ if true then
                         Color = Color3.new(0.2, 0.8, 0.8)
                     }
                 )
+				getgenv()._GetOutAllowed = true
                 TwTP(game:GetService("Workspace").Banks:GetChildren()[1].Layout:GetChildren()[1].Money.Position)
                 wait(6)
             end
